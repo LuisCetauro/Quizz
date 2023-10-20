@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo de Perguntas</title>
+    <link href="src/css/style2.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="src/script2.js"></script>
+</head>
+<body>
+    <div class="center">
+        <header>
+            <nav class="desktop_h">
+                <table>
+                    <tr>
+                        <th>
+                            <button id="cover1" class="botao-sty">
+                                <a href="index.html">Início</a>
+                            </button>
+                        </th>
+                    </tr>
+                </table>
+            </nav>
+            <nav class="mobile_h">
+
+            </nav>
+        </header>
+    </div>
+    <div id="main">
+        <div class="center">
+            <div class="container">
+                <div class="title">
+                    <h1 class="list2">Taverna de perguntas</h1>
+                </div>
+
+                <div class="box5" id="question1">
+                    <h1 class="list">Jogo de Perguntas</h1>
+                    <p class="list">
+                        Esse é o modo fácil, não há muito o que se falar,
+                        pense, digite sua resposta e tente a sorte. Você começa
+                        com 5 vidas, use-as com sabedoria.
+                    </p>
+                </div>
+                <div class="box2">
+                    <div class="falas">
+                        <img id="d1" src="src/img/npc.png" />
+                    </div>
+                </div>
+                <div class="box3" id="test">
+                    <h2 class="list">Pergunta:</h2>
+                    <p class="list" id="question">O que te permite olhar por uma parede?</p>
+                    <input type="text" id="answer" placeholder="Digite sua resposta">
+                    <button class="botao-sty" id="submit">Responder</button>
+                    <p id="result"></p>
+
+                </div>
+                <p class="lifes" id="score">Vidas restantes: 5</p>
+                <div class="boxf" id="lose">
+                    <h1>Fraco, como esperado.</h1>
+                    <button class="botao"><a href="index2.html">Tentar Novamente</a></button>
+                </div>
+                
+
+
+                <div class="boxf" id="win">
+                    <h1 class="textof">Parabés.</h1>
+                    <h1 class="textof">Outros desafios.</h1>
+                    <button class="botao"><a href="index3.html">Médio</a></button>
+                    <button class="botao"><a href="index4.html">Difícil</a></button>
+                </div>
+
+                
+
+            </div>
+        </div>
+    </div>   
+    <footer class="footer">
+        <h1>Um jogo de charada com diversas dificuldades, divira-se.</h1>
+        <img class="logof" src="src/img/logo.svg" />
+    </footer>
+</body>
+</html>

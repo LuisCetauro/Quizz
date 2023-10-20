@@ -1,0 +1,384 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.clear { clear: both;}
+
+
+
+.desktop_h {
+    padding-left: 42%;
+    padding-bottom: 0.5%;
+    padding-top: 1%;
+    background-color: rgb(133, 10, 209);
+}
+.main {
+    max-height: 100vh;
+}
+.container {
+    background-image: url('../img/bg.jpg');
+    height: 855px;
+}
+.logo {
+    width: 3%;
+}
+.title {
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+}
+.list {
+
+    font-size: 36px;
+}
+
+.list2 {
+    font-size: 60px;
+}
+.box2 {
+    float: right;
+    margin-right: 18%;
+    margin-top:-6%;
+}
+
+.box3 {
+    border: 5px solid white;
+    width: 33%;
+    margin-top: 10%;
+    margin-left: 20%;
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+}
+.botao-sty {
+    width: auto;
+    height: auto;
+}
+
+.boxf {
+    border: 5px solid white;
+    width: 33%;
+    margin-top: 10%;
+    margin-left: 20%;
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.textf{
+    font-size:36px;
+}
+
+.box5 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border: 5px solid white;
+    width: 37%;
+    margin-left: 20%;
+    background-color: black;
+    opacity: 0.7;
+}
+.botao {
+    margin-left: 18%;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+
+footer {
+    background-color: rgb(133, 10, 209);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 1%;
+}
+.logof {
+    float: right;
+    width: 4%;
+    margin-right: 3%;
+    margin-top: -2%;
+}
+
+.lifes{
+    color:white;
+    border:5px solid white;
+    width:5%;
+}
+
+
+#win, #lose{
+    display:none;
+}
+
+
+/*S22*/
+@media screen and (min-width: 1001px) and (max-width:1560px) {
+    .box2 img {
+        height: 900px;
+        margin-left: 25%;
+    }
+    .box2{
+        margin-top:5%;
+    }
+
+    .box5{
+        margin-top:8%;
+        margin-left:12%;
+        width:800px;
+    }
+    .box1 {
+        margin-left: 9%;
+        width: 800px;
+    }
+
+    .lifes {
+        position:absolute;
+        top:40%;
+        left:5%;
+        width: 25%;
+        font-size: 50px;
+        padding-left:1%;
+    }
+
+    .list {
+        font-size: 70px;
+    }
+
+    .list2 {
+        font-size: 100px;
+    }
+
+
+    .container {
+        height: 2050px;
+        width: 1080px;
+    }
+
+    header {
+        width: 1080px;
+    }
+
+    .desktop_h {
+        height: 150px;
+    }
+
+    footer {
+        height: 170px;
+        width: 1080px;
+    }
+
+    .box3 {
+        position:absolute;
+        top:60%;
+        left:-15%;
+        width:600px;
+        padding-left:1%;
+        padding-bottom:2%;
+    }
+
+        .box3 a {
+            font-size: 40px;
+        }
+
+    .box4 {
+        width: 800px;
+        margin-left: 15%;
+    }
+
+    .textofooter2 {
+        font-size: 60px;
+    }
+
+    .botao {
+        margin-left: 2%;
+        padding: 7%;
+        border-radius: 60px;
+    }
+
+    .desktop_h {
+        padding-left: 25%;
+    }
+
+    footer h1 {
+        font-size: 60px;
+    }
+
+    .logof {
+        display: none;
+    }
+
+    .botao-sty {
+        width: 300px;
+        height: 50px;
+        margin-top: 10%;
+        margin-left: 30%;
+        font-size: 30px;
+    }
+}
+
+
+/*S9*/
+@media only screen and (max-width:1000px) and (max-height:700px) {
+
+    .box2 img {
+        display:none;
+    }
+    .box5 {
+        margin-top: 1%;
+        margin-left: 1%;
+        width: 300px;
+    }
+    .box1 {
+        margin-left: 2.5%;
+        width: 280px;
+    }
+
+    .lifes {
+        width: 100px;
+        margin-left:30%;
+    }
+
+    .list {
+        font-size: 20px;
+    }
+
+    .list2 {
+        font-size: 30px;
+    }
+
+    .container {
+        height: 520px;
+    }
+
+    .box3 {
+        width: 250px;
+        margin: 20% 8%;
+    }
+
+    .box4 {
+        width: 280px;
+        margin-left: 5%;
+    }
+
+    .textofooter2 {
+        font-size: 26px;
+    }
+
+    .botao {
+        height:50px;
+        width:auto;
+        margin-left: 0%;
+    }
+
+    .desktop_h {
+        padding-left: 25%;
+    }
+
+    .textofooter {
+        font-size: 20px;
+    }
+
+    .logof {
+        position: absolute;
+        bottom: 1%;
+        left: 40%;
+        height: 50px;
+        width: 50px;
+    }
+    
+
+}
+
+/*rest*/
+@media only screen and (max-width:1000px) and (min-height:701px) {
+
+    .box2 img {
+        
+        height: 300px;
+        margin-left: 12%;
+    }
+
+    .box1 {
+        margin-left: 0;
+        width: 200px;
+    }
+
+    .lifes {
+        position:absolute;
+        top:50%;
+        left:2%;
+        width:100px;
+
+    }
+
+    .list {
+        font-size: 20px;
+    }
+
+    .list2 {
+        font-size: 30px;
+    }
+
+    .container {
+        height: 765px;
+        width: 410px;
+    }
+
+    header {
+        width: 420px;
+    }
+
+    footer {
+        width: 410px;
+    }
+
+    .box3 {
+        width: 300px;
+        margin: 50% 13%;
+    }
+
+    .box4 {
+        width: 350px;
+        margin-left: 5%;
+    }
+
+ 
+    .box5{
+        margin-left:2%;
+        width:350px;
+    }
+    .textofooter2 {
+        font-size: 30px;
+    }
+
+    .botao {
+        margin-left: 2%;
+    }
+
+    .desktop_h {
+        padding-left: 25%;
+    }
+
+    .textofooter {
+        font-size: 20px;
+    }
+
+    .logof {
+        position: relative;
+        bottom: 0%;
+        left: -10%;
+        height: 50px;
+        width: 50px;
+    }
+
+    
+} 
